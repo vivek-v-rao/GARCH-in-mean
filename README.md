@@ -1,6 +1,6 @@
 # GARCH-in-mean
 Fit GARCH-in-mean models to daily asset class returns using the Python arch package.`python xgarch_m.py` gives the results below. Looking at the archm_t column, which has the t-statistic of the GARCH-in-mean (GIM) effect, the positive values for SPY EFA EEM IEF LQD mean that higher conditional variances
-predict higher returns. Only TLT has a negative GIM effect. It is a but surprising that TLT and IEF have GIM effects of the opposite sign.
+predict higher returns. Only TLT has a negative GIM effect. It is a bit surprising that TLT and IEF have GIM effects of the opposite sign.
 ```
 prices file: prices.csv
 date range: 2003-04-14 to 2026-01-16
